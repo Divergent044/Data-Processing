@@ -72,7 +72,8 @@ class DataTable extends Component {
             wasSelected: -1,
             selectedRow: false,
             arrayColor: [],
-            wasSorted: -1
+            wasSorted: -1,
+            errorFlag: false
         });
         for (let i = 0; i < this.state.visibility.length; i++)
             this.state.visibility[i] = 'hidden';
@@ -97,7 +98,8 @@ class DataTable extends Component {
             }
         }
         this.setState({
-            selectedEntry: entry
+            selectedEntry: entry,
+            errorFlag: false
         });
     }
 
@@ -131,6 +133,7 @@ class DataTable extends Component {
         this.setState({
             pageOfRows: this.state.pageOfRows.sort(this.comparisonFunction(sortableType)),
             wasSelected: -1,
+            errorFlag: false,
             selectedRow: false,
             arrayColor: []
         });
@@ -168,6 +171,11 @@ class DataTable extends Component {
                 errorFlag: true,
                 errorText: this.state.searchText
             });
+        this.setState({
+            wasSelected: -1,
+            selectedRow: false,
+            arrayColor: [],
+        });
     }
 
     render() {

@@ -17,16 +17,6 @@ class Pagination extends Component {
             this.setPage(this.state.initialPage);
     }
 
-    shouldComponentUpdate(){
-        return true;
-    }
-
-    /*componentWillUpdate(nextProps, nextState) {
-        if (this.props.data !== nextProps.data) {
-            this.setPage(this.state.initialPage);
-        }
-    }*/
-
     componentDidUpdate(prevProps, prevState) {
         if (this.props.data !== prevProps.data) {
             this.setPage(this.state.initialPage);

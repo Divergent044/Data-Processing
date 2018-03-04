@@ -1,0 +1,12 @@
+.errorBlock {
+    position: absolute;
+    width: 700px;
+    height: 50px;
+    left: 47%;
+    top: 35px;
+    border-radius: 10px;
+    text-align: justify;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 27px;
+    color: #e60000;
+}

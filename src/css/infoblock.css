@@ -1,0 +1,44 @@
+.infoBlock {
+    margin: 30px auto;
+    width: 600px;
+    padding: 7px 0;
+    overflow: hidden;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dedede #bababa #aaa #bababa;
+    -moz-box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+    -webkit-box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+    box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#eae8e8));
+    background-image: -webkit-linear-gradient(top, #f6f6f6, #eae8e8);
+    background-image: -moz-linear-gradient(top, #f6f6f6, #eae8e8);
+    background-image: -ms-linear-gradient(top, #f6f6f6, #eae8e8);
+    background-image: -o-linear-gradient(top, #f6f6f6, #eae8e8);
+    background-image: linear-gradient(top, #f6f6f6, #eae8e8);
+}
+
+p {
+    font-size: 18px;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+    margin: 11px 5px;
+    font-weight: 400;
+}
+
+textarea {
+    margin-left: 5px;
+    width: 90%;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Times New Roman", sans-serif;
+    text-align: justify;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    background-color: #fff;
+}
+textarea:focus {outline: none}

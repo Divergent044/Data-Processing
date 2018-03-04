@@ -1,0 +1,6 @@
+{
+  "main.css": "static/css/bundle.css",
+  "main.css.map": "static/css/bundle.css.map",
+  "main.js": "static/js/bundle.js",
+  "main.js.map": "static/js/bundle.js.map"
+}

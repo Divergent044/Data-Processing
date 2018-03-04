@@ -72,8 +72,7 @@ class DataTable extends Component {
             wasSelected: -1,
             selectedRow: false,
             arrayColor: [],
-            wasSorted: -1,
-            errorFlag: false
+            wasSorted: -1
         });
         for (let i = 0; i < this.state.visibility.length; i++)
             this.state.visibility[i] = 'hidden';
